@@ -1,0 +1,1 @@
+package com.natrix.whatappclone.message;public enum MessageType {    TEXT,    IMAGE,    AUDIO,    VIDEO}

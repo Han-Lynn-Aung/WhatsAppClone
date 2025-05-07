@@ -1,0 +1,1 @@
+package com.natrix.whatappclone.message;public enum MessageState {    SENT,    SEEN}

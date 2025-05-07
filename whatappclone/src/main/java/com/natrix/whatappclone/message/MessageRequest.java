@@ -1,0 +1,1 @@
+package com.natrix.whatappclone.message;import lombok.Getter;import lombok.RequiredArgsConstructor;import lombok.Setter;@Getter@Setter@RequiredArgsConstructorpublic class MessageRequest {    private String content;    private String  senderId;    private String receiverId;    private MessageType messageType;    private String chatId;}
