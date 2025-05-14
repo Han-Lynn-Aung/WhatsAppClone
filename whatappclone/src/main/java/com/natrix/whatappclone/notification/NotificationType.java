@@ -1,0 +1,1 @@
+package com.natrix.whatappclone.notification;public enum NotificationType {    SEEN,    MESSAGE,    IMAGE,    AUDIO,    VIDEO}

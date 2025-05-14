@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feeed0bc-0b90-4548-9d8a-64d6a6703881" name="Changes" comment="">
+    <list default="true" id="feeed0bc-0b90-4548-9d8a-64d6a6703881" name="Changes" comment="done backend">
+      <change afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/notification/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/notification/NotificationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/WhatsAppCloneApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/WhatsAppCloneApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/chat/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/chat/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/chat/ChatResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/chat/ChatResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/interceptor/UserSynchronizerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/interceptor/UserSynchronizerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/message/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/message/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/message/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/message/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/security/KeyCloakJwtAuthenticationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/security/KeyCloakJwtAuthenticationConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/ws/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/java/com/natrix/whatappclone/ws/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatappclone/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/whatappclone/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +57,33 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ukFl8uqJjcNWVYrPBzpgwOfNiP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.WhatsAppCloneApiApplication.executor": "Run",
-    "Maven.whatappclone [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Java Project/WhatsAppClone",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.WhatsAppCloneApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.whatappclone [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java Project/WhatsAppClone&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.natrix.whatappclone.notification" />
       <recent name="com.natrix.whatappclone.user" />
       <recent name="com.natrix.whatappclone.file" />
       <recent name="com.natrix.whatappclone.message" />
       <recent name="com.natrix.whatappclone.common" />
-      <recent name="com.natrix.whatappclone.chat" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -101,5 +121,9 @@
       <updated>1742784813737</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="done backend" />
   </component>
 </project>
